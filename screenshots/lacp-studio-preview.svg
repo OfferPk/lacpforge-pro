@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050b14" />
+      <stop offset="100%" stop-color="#0a1324" />
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#101c36" />
+      <stop offset="100%" stop-color="#0a1324" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#bg)" />
+
+  <!-- Top App Bar -->
+  <rect x="30" y="24" width="1140" height="70" rx="10" fill="url(#cardGrad)" stroke="#1b2b4d" stroke-width="1.5" />
+  <rect x="50" y="39" width="40" height="40" rx="8" fill="url(#primaryGrad)" />
+  <text x="70" y="66" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="16" text-anchor="middle">LACP</text>
+  <text x="105" y="56" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="18">LACPForge Pro</text>
+  <text x="105" y="73" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">IEEE 802.1AX &amp; IEEE 802.3ad Zero-Trust Link Aggregation &amp; Port-Channel Dimensioning Studio</text>
+
+  <!-- Badges -->
+  <rect x="680" y="44" width="110" height="28" rx="6" fill="rgba(6, 182, 212, 0.15)" stroke="#06b6d4" stroke-width="1"/>
+  <text x="735" y="62" fill="#22d3ee" font-family="monospace" font-weight="bold" font-size="10" text-anchor="middle">IEEE 802.1AX</text>
+
+  <rect x="800" y="44" width="115" height="28" rx="6" fill="rgba(16, 185, 129, 0.15)" stroke="#10b981" stroke-width="1"/>
+  <text x="857" y="62" fill="#34d399" font-family="monospace" font-weight="bold" font-size="10" text-anchor="middle">IEEE 802.3ad</text>
+
+  <rect x="925" y="44" width="115" height="28" rx="6" fill="rgba(56, 189, 248, 0.15)" stroke="#38bdf8" stroke-width="1"/>
+  <text x="982" y="62" fill="#38bdf8" font-family="monospace" font-weight="bold" font-size="10" text-anchor="middle">ETHERTYPE 0x8809</text>
+
+  <rect x="1050" y="44" width="110" height="28" rx="6" fill="rgba(244, 63, 94, 0.15)" stroke="#f43f5e" stroke-width="1"/>
+  <text x="1105" y="62" fill="#fb7185" font-family="monospace" font-weight="bold" font-size="10" text-anchor="middle">SUB-SECOND LACP</text>
+
+  <!-- Presets Strip -->
+  <rect x="30" y="110" width="280" height="34" rx="6" fill="rgba(6, 182, 212, 0.2)" stroke="#06b6d4" stroke-width="1.5" />
+  <text x="170" y="132" fill="#22d3ee" font-family="-apple-system, sans-serif" font-weight="bold" font-size="12" text-anchor="middle">800G Data Center Backbone (Grade A+)</text>
+
+  <rect x="320" y="110" width="250" height="34" rx="6" fill="#101c36" stroke="#1b2b4d" stroke-width="1" />
+  <text x="445" y="132" fill="#94a3b8" font-family="-apple-system, sans-serif" font-weight="bold" font-size="12" text-anchor="middle">Enterprise Hypervisor (Grade A)</text>
+
+  <rect x="580" y="110" width="240" height="34" rx="6" fill="#101c36" stroke="#1b2b4d" stroke-width="1" />
+  <text x="700" y="132" fill="#94a3b8" font-family="-apple-system, sans-serif" font-weight="bold" font-size="12" text-anchor="middle">Vulnerable Unhardened Bundle (F)</text>
+
+  <!-- Left Column: Controls (Width: 420) -->
+  <rect x="30" y="160" width="420" height="315" rx="10" fill="url(#cardGrad)" stroke="#1b2b4d" stroke-width="1.5" />
+  <text x="50" y="190" fill="#f8fafc" font-family="-apple-system, sans-serif" font-weight="bold" font-size="14">Actor &amp; Partner LACP Parameters</text>
+
+  <text x="50" y="225" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Actor System MAC</text>
+  <rect x="50" y="235" width="180" height="30" rx="5" fill="#080f1e" stroke="#1b2b4d" />
+  <text x="60" y="255" fill="#22d3ee" font-family="monospace" font-size="11">00:1a:2b:3c:4d:5e</text>
+
+  <text x="250" y="225" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Partner System MAC</text>
+  <rect x="250" y="235" width="180" height="30" rx="5" fill="#080f1e" stroke="#1b2b4d" />
+  <text x="260" y="255" fill="#34d399" font-family="monospace" font-size="11">00:aa:bb:cc:dd:ee</text>
+
+  <text x="50" y="295" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Operational Key</text>
+  <rect x="50" y="305" width="180" height="30" rx="5" fill="#080f1e" stroke="#1b2b4d" />
+  <text x="60" y="325" fill="#fbbf24" font-family="monospace" font-size="11">Key: 10</text>
+
+  <text x="250" y="295" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Member Link Speed</text>
+  <rect x="250" y="305" width="180" height="30" rx="5" fill="#080f1e" stroke="#1b2b4d" />
+  <text x="260" y="325" fill="#fbbf24" font-family="monospace" font-size="11">100 Gbps QSFP28</text>
+
+  <text x="50" y="365" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Active Member Count</text>
+  <rect x="50" y="375" width="180" height="30" rx="5" fill="#080f1e" stroke="#1b2b4d" />
+  <text x="60" y="395" fill="#38bdf8" font-family="monospace" font-size="11">8 Member Links</text>
+
+  <text x="250" y="365" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Hash Load-Balancing</text>
+  <rect x="250" y="375" width="180" height="30" rx="5" fill="#080f1e" stroke="#1b2b4d" />
+  <text x="260" y="395" fill="#34d399" font-family="monospace" font-size="11">5-Tuple L3+L4</text>
+
+  <rect x="50" y="420" width="380" height="35" rx="6" fill="#040813" stroke="#1b2b4d" />
+  <text x="240" y="443" fill="#22d3ee" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">Destination: 01:80:C2:00:00:02 (Slow Protocols)</text>
+
+  <!-- Left Bottom: Zero-Trust Controls (Width: 420) -->
+  <rect x="30" y="490" width="420" height="285" rx="10" fill="url(#cardGrad)" stroke="#1b2b4d" stroke-width="1.5" />
+  <text x="50" y="520" fill="#f8fafc" font-family="-apple-system, sans-serif" font-weight="bold" font-size="14">Capacity &amp; Security Controls</text>
+
+  <text x="50" y="550" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Bandwidth Dimensioning</text>
+  <rect x="50" y="560" width="380" height="30" rx="5" fill="#080f1e" stroke="#1b2b4d" />
+  <text x="60" y="580" fill="#34d399" font-family="monospace" font-size="11">800 Gbps Aggregate | 700 Gbps N-1 | &lt;50ms Failover</text>
+
+  <text x="50" y="615" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Zero-Trust LACP Controls</text>
+  <rect x="50" y="625" width="380" height="130" rx="6" fill="#080f1e" stroke="#1b2b4d" />
+  <text x="65" y="650" fill="#34d399" font-family="monospace" font-size="11">[X] LACP Active Mode (No Deadlocks)</text>
+  <text x="65" y="675" fill="#34d399" font-family="monospace" font-size="11">[X] 5-Tuple L3+L4 Hash (Zero Polarization)</text>
+  <text x="65" y="700" fill="#34d399" font-family="monospace" font-size="11">[X] Short Timeout Timer (1s Heartbeats)</text>
+  <text x="65" y="725" fill="#34d399" font-family="monospace" font-size="11">[X] Min-Links Protection (SLA Threshold)</text>
+  <text x="65" y="750" fill="#34d399" font-family="monospace" font-size="11">[X] CoPP Hardware Rate-Limiting (300 pps)</text>
+
+  <!-- Right Column: Audit Scorecard & Hex Dissector -->
+  <rect x="470" y="160" width="700" height="230" rx="10" fill="url(#cardGrad)" stroke="#1b2b4d" stroke-width="1.5" />
+  <text x="490" y="190" fill="#f8fafc" font-family="-apple-system, sans-serif" font-weight="bold" font-size="14">10-Point Zero-Trust Link Aggregation Security Scorecard</text>
+
+  <rect x="490" y="210" width="660" height="60" rx="8" fill="rgba(16, 185, 129, 0.12)" stroke="#10b981" stroke-width="1" />
+  <circle cx="530" cy="240" r="22" fill="#080f1e" stroke="#10b981" stroke-width="2" />
+  <text x="530" y="247" fill="#34d399" font-family="sans-serif" font-weight="900" font-size="18" text-anchor="middle">A+</text>
+  <text x="570" y="235" fill="#f8fafc" font-family="sans-serif" font-weight="bold" font-size="15">100 / 100 Points — Production-Grade Backbone</text>
+  <text x="570" y="253" fill="#94a3b8" font-family="sans-serif" font-size="12">LACP Active mode, 5-tuple L3+L4 hash balancing, short timeout failover, and CoPP rate-limiting.</text>
+
+  <!-- Findings snapshot -->
+  <rect x="490" y="285" width="320" height="40" rx="4" fill="#080f1e" stroke="#1b2b4d" />
+  <text x="505" y="302" fill="#34d399" font-family="sans-serif" font-weight="bold" font-size="11">✓ LACP Active Mode Enforcement</text>
+  <text x="505" y="318" fill="#94a3b8" font-family="sans-serif" font-size="10">12/12 pts — Proactive heartbeat transmission</text>
+
+  <rect x="830" y="285" width="320" height="40" rx="4" fill="#080f1e" stroke="#1b2b4d" />
+  <text x="845" y="302" fill="#34d399" font-family="sans-serif" font-weight="bold" font-size="11">✓ Collecting &amp; Distributing Sync</text>
+  <text x="845" y="318" fill="#94a3b8" font-family="sans-serif" font-size="10">12/12 pts — State: 0x3D / 0x3F (Zero Blackhole)</text>
+
+  <rect x="490" y="335" width="320" height="40" rx="4" fill="#080f1e" stroke="#1b2b4d" />
+  <text x="505" y="352" fill="#34d399" font-family="sans-serif" font-weight="bold" font-size="11">✓ 5-Tuple L3+L4 Hash Balancing</text>
+  <text x="505" y="368" fill="#94a3b8" font-family="sans-serif" font-size="10">10/10 pts — Eliminates polarization bottlenecks</text>
+
+  <rect x="830" y="335" width="320" height="40" rx="4" fill="#080f1e" stroke="#1b2b4d" />
+  <text x="845" y="352" fill="#34d399" font-family="sans-serif" font-weight="bold" font-size="11">✓ CoPP Hardware Rate-Limiting</text>
+  <text x="845" y="368" fill="#94a3b8" font-family="sans-serif" font-size="10">9/9 pts — Capped at 300 pps</text>
+
+  <!-- Right Bottom: Hex Wireframe & Synthesizer -->
+  <rect x="470" y="410" width="700" height="365" rx="10" fill="url(#cardGrad)" stroke="#1b2b4d" stroke-width="1.5" />
+  <text x="490" y="435" fill="#f8fafc" font-family="-apple-system, sans-serif" font-weight="bold" font-size="14">IEEE 802.1AX Binary LACPDU Hex Dissector</text>
+
+  <!-- Hex Dump Display -->
+  <rect x="490" y="450" width="660" height="110" rx="6" fill="#040813" stroke="#1b2b4d" />
+  <text x="505" y="472" fill="#22d3ee" font-family="monospace" font-size="11">0000   01 80 c2 00 00 02 00 1a 2b 3c 4d 5e 88 09 01 01   |........+&lt;M^....|</text>
+  <text x="505" y="490" fill="#94a3b8" font-family="monospace" font-size="11">0010   01 14 80 00 00 1a 2b 3c 4d 5e 00 0a 80 00 00 01   |......+&lt;M^......|</text>
+  <text x="505" y="508" fill="#34d399" font-family="monospace" font-size="11">0020   3f 00 00 00 02 14 80 00 00 aa bb cc dd ee 00 0a   |?...............|</text>
+  <text x="505" y="526" fill="#fbbf24" font-family="monospace" font-size="11">0030   80 00 00 01 3f 00 00 00 03 10 00 00 00 00 00 00   |....?...........|</text>
+  <text x="505" y="546" fill="#38bdf8" font-family="monospace" font-size="10">[EtherType 0x8809 | Subtype: 0x01 LACP | Actor State: 0x3F | Partner State: 0x3F | 124B Frame]</text>
+
+  <!-- Synthesizer Output -->
+  <rect x="490" y="575" width="660" height="185" rx="6" fill="#040813" stroke="#1b2b4d" />
+  <text x="505" y="598" fill="#10b981" font-family="monospace" font-size="11">! Cisco IOS-XE / NX-OS Hardened LACP Port-Channel Configuration</text>
+  <text x="505" y="618" fill="#cbd5e1" font-family="monospace" font-size="11">port-channel load-balance src-dst-ip-port &amp; lacp rate fast</text>
+  <text x="505" y="638" fill="#38bdf8" font-family="monospace" font-size="11">interface Port-Channel10: lacp min-links 4 &amp; lacp suspend-individual</text>
+  <text x="505" y="658" fill="#cbd5e1" font-family="monospace" font-size="11">interface range HundredGigE1/0/1 - 8: channel-group 10 mode active</text>
+  <text x="505" y="678" fill="#fbbf24" font-family="monospace" font-size="11">mtu 9216</text>
+</svg>
